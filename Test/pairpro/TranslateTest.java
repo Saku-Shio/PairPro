@@ -479,4 +479,43 @@ public class TranslateTest {
 		String eng = trans.translateEng(number);
 		assertThat("sixty five", is(eng));
 	}
+	@Test
+	public void 数字66を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 66;
+		String eng = trans.translateEng(number);
+		assertThat("sixty six", is(eng));
+	}
+
+	@Test
+	public void 数字67を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 67;
+		String eng = trans.translateEng(number);
+		assertThat("sixty seven", is(eng));
+	}
+
+	@Test
+	public void 数字68を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 68;
+		String eng = trans.translateEng(number);
+		assertThat("sixty eight", is(eng));
+	}
+
+	@Test
+	public void 数字69を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 69;
+		String eng = trans.translateEng(number);
+		assertThat("sixty nine", is(eng));
+	}
+
+	@Test
+	public void 数字70を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 70;
+		String eng = trans.translateEng(number);
+		assertThat("seventy", is(eng));
+	}
 }
