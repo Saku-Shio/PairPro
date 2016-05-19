@@ -20,6 +20,7 @@ public class Translate {
     			"five",
     			"six",
     			"seven",
+    			"eight",
     			"nine",
     			"ten",
     			"eleven",
@@ -41,7 +42,27 @@ public class Translate {
     			"twenty seven",
     			"twenty eight",
     			"twenty nine",
-    			"thirty"
+    			"thirty",
+    			"thirty one",
+    			"thirty two",
+    			"thirty three",
+    			"thirty four",
+    			"thirty five",
+    			"thirty six",
+    			"thirty seven",
+    			"thirty eight",
+    			"thirty nine",
+    			"fourty",
+    			"fourty one",
+    			"fourty two",
+    			"fourty three",
+    			"fourty four",
+    			"fourty five",
+    			"fourty six",
+    			"fourty seven",
+    			"fourty eight",
+    			"fourty nine",
+    			"fifty"
     			};
         return s[n-1];
         
