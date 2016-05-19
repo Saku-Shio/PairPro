@@ -72,7 +72,13 @@ public class Translate {
     			"fifty seven",
     			"fifty eight",
     			"fifty nine",
-    			"sixty"
+    			"sixty",
+    			"sixty one",
+    			"sixty two",
+    			"sixty three",
+    			"sixty four",
+    			"sixty five"
+    		
     			};
         return s[n-1];
         
