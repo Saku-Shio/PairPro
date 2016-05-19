@@ -62,7 +62,17 @@ public class Translate {
     			"fourty seven",
     			"fourty eight",
     			"fourty nine",
-    			"fifty"
+    			"fifty",
+    			"fifty one",
+    			"fifty two",
+    			"fifty three",
+    			"fifty four",
+    			"fifty five",
+    			"fifty six",
+    			"fifty seven",
+    			"fifty eight",
+    			"fifty nine",
+    			"sixty"
     			};
         return s[n-1];
         

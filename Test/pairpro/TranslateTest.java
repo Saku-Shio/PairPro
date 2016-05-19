@@ -310,6 +310,7 @@ public class TranslateTest {
 		String eng = trans.translateEng(number);
 		assertThat("fourty three",is(eng));
 	}
+	@Test
 	public void 数字44を英訳する変換するメソッド(){
 		Translate trans = new Translate();
 		int number  = 44;
@@ -344,18 +345,99 @@ public class TranslateTest {
 		String eng = trans.translateEng(number);
 		assertThat("fourty eight",is(eng));
 	}
+
 	@Test
-	public void 数字49を英訳する変換するメソッド(){
+	public void 数字49を英訳する変換するメソッド() {
 		Translate trans = new Translate();
-		int number  = 49;
+		int number = 49;
 		String eng = trans.translateEng(number);
-		assertThat("fourty nine",is(eng));
+		assertThat("fourty nine", is(eng));
+	}
+
+	@Test
+	public void 数字50を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 50;
+		String eng = trans.translateEng(number);
+		assertThat("fifty", is(eng));
+	}
+
+	@Test
+	public void 数字51を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 51;
+		String eng = trans.translateEng(number);
+		assertThat("fifty one", is(eng));
+	}
+
+	@Test
+	public void 数字52を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 52;
+		String eng = trans.translateEng(number);
+		assertThat("fifty two", is(eng));
+	}
+
+	@Test
+	public void 数字53を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 53;
+		String eng = trans.translateEng(number);
+		assertThat("fifty three", is(eng));
 	}
 	@Test
-	public void 数字50を英訳する変換するメソッド(){
+	public void 数字54を英訳する変換するメソッド() {
 		Translate trans = new Translate();
-		int number  = 50;
+		int number = 54;
 		String eng = trans.translateEng(number);
-		assertThat("fifty",is(eng));
+		assertThat("fifty four", is(eng));
+	}
+
+	@Test
+	public void 数字55を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 55;
+		String eng = trans.translateEng(number);
+		assertThat("fifty five", is(eng));
+	}
+
+	@Test
+	public void 数字56を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 56;
+		String eng = trans.translateEng(number);
+		assertThat("fifty six", is(eng));
+	}
+
+	@Test
+	public void 数字57を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 57;
+		String eng = trans.translateEng(number);
+		assertThat("fifty seven", is(eng));
+	}
+
+	@Test
+	public void 数字58を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 58;
+		String eng = trans.translateEng(number);
+		assertThat("fifty eight", is(eng));
+	}
+
+	@Test
+	public void 数字59を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 59;
+		String eng = trans.translateEng(number);
+		assertThat("fifty nine", is(eng));
+	}
+
+	@Test
+	public void 数字60を英訳する変換するメソッド() {
+		Translate trans = new Translate();
+		int number = 60;
+		String eng = trans.translateEng(number);
+		assertThat("sixty", is(eng));
 	}
 }
